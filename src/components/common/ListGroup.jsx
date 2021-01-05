@@ -1,5 +1,5 @@
 import React from "react";
-import Genres from "../../services/fakeGenreService";
+
 
 const ListGroup = props => {
   const {
@@ -13,9 +13,6 @@ const ListGroup = props => {
 
   return (
     <div className="list-group ">
-      <a href="#" className="list-group-item list-group-item-action">
-        All genres
-      </a>
       {items.map(item => {
         return (
           <a
